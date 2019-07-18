@@ -1,0 +1,12 @@
+Source: ros-kinetic-smacha
+Section: misc
+Priority: extra
+Maintainer: Barry Ridge <barry.ridge@ijs.si>
+Build-Depends: debhelper (>= 9.0.0), python-jinja2, python-ruamel.yaml, python-unittest2, ros-kinetic-catkin, ros-kinetic-smach
+Homepage: http://ros.org/wiki/smacha
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-smacha
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-jinja2, python-ruamel.yaml, ros-kinetic-smach
+Description: SMACHA (short for &quot;State Machine Assembler&quot;, pronounced &quot;smasha&quot;) aims at distilling the task-level simplicity of SMACH into compact YAML-based scripts in the foreground, while retaining all of its power and flexibility in Jinja2-based templates and a custom code generation engine in the background.

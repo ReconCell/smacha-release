@@ -1,3 +1,0 @@
-- builder: sphinx
-  name: smacha_ros package API
-  sphinx_root_dir: doc

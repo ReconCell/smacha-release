@@ -1,0 +1,13 @@
+Source: ros-kinetic-smacha-ros
+Section: misc
+Priority: extra
+Maintainer: Barry Ridge <barry.ridge@ijs.si>
+Build-Depends: debhelper (>= 9.0.0), python-unittest2, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-sensor-msgs, ros-kinetic-smach, ros-kinetic-smach-ros, ros-kinetic-smacha, ros-kinetic-std-msgs, ros-kinetic-trajectory-msgs
+Homepage: http://ros.org/wiki/smacha
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-smacha-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-smach, ros-kinetic-smach-ros, ros-kinetic-smacha, ros-kinetic-std-msgs, ros-kinetic-trajectory-msgs
+Description: SMACHA ROS is a package that provides ROS integration for SMACHA.
+ Its main component is a SMACHA server that allows for templates to be loaded from disparate packages and accessed from anywhere within the ROS network and provides services for each of the main SMACHA functions.
